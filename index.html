@@ -10,7 +10,6 @@
   <script src="https://kit.fontawesome.com/41d2951665.js" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles.css">
-    <script src="./script.js"></script>
     <title>.hack(); 21</title>
 </head>
 <body>
@@ -25,20 +24,26 @@
               <ul id="list">
                   <li><a href="./#about" ><p>About</p></a></li>
                   <li><a href="./#winners" ><p>Topteam</p></a></li>
-                  <li><a href="./#themes" ><p>Aftermovie</p></a></li>
-                  <li><a href="./#footer" ><p>Contact</p></a></li>
+                  <li><a href="./#aftermovie" ><p>Aftermovie</p></a></li>
+                  <li><a href="./#sponsors" ><p>Sponsors</p></a></li>
+                  <li><a href="./#footer" ><p>Contact</p></a></li> 
                    
               </ul>
               
           </div>
           
-          <button id="bars" onclick='myFun()' ><i class="fa fa-bars"></i></button>
-          <ul id="list-res" class="la" style="list-style-type:none  ">
-            <li><a href="./#about" ><b><p style=" color: black ">About</p></b></a></li>
-            <li><a href="./#winners" ><b><p style=" color: black ">Top</p></b></a></li>
-            <li><a href="./#theme" ><b><p style=" color: black ">Aftermovie</p></b></a></li>
-            <li><a href="./#footer" ><b><p style=" color: black ">Contact</p></b></a></li> 
-        </ul> 
+         <div class="dropdown-cont">
+          <div id="bars" onclick='dropdown()'><i class="fa fa-bars" style="font-size:28px;color: white;"></i></div>
+          <div id="dropdown">
+            <ul id="list-res" class="la" style="list-style-type:none  ">
+              <li><a href="./#about" ><b><p style=" color: white ">About</p></b></a></li>
+              <li><a href="./#winners" ><b><p style=" color: white">Top teams</p></b></a></li>
+              <li><a href="./#aftermovie" ><b><p style=" color: white ">Aftermovie</p></b></a></li>
+              <li><a href="./#sponsors" ><b><p style=" color: white ">Sponsors</p></b></a></li>
+              <li><a href="./#footer" ><b><p style=" color: white ">Contact</p></b></a></li> 
+            </ul> 
+          </div>
+         </div>
       </div>
       
         <img src="images/Logo Techie (1).png" alt=".hack()" id='img1'>
@@ -46,8 +51,8 @@
       </div>
 
       <div class="about" id='about'>
-      <h1 class="abhead" id ="a1"> Connect,</h1>
-      <h1 class="abhead" id ="a2">Collaborate & Create</h1>
+      <h1 class="abhead" > Connect,<br>Collabrate and Create</h1>
+  
       
       </div>
 
@@ -56,7 +61,7 @@
        <img src="images/pexels-pixabay-267350.jpg" alt="winner" id="w1">
        <div id="win1">
          <h3 id="th1">Lorem Ipsum</h3>
-         <p id="tp1">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+         <p id="tp2">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
        </div>
        <img src="images/pexels-pixabay-267350.jpg" alt="winner" id="w2">
        <div id="win2">
@@ -76,25 +81,25 @@
       <div class="theme" id="theme">
         <h1 id="t">.Hack() '21 Themes</h1>
         <div class="container">
-          <div class="row">
-            <div class="col-sm-0">
+          <div class="row0">
+            <div class="col1">
               <img src="images\good health.png" alt="" id='i1'>
             </div>
-            <div class="col-sm-0">
+            <div class="col1">
               <img src="images\quality education.png" alt="" id='i2'>
             </div>
-            <div class="col-sm-0">
+            <div class="col1">
               <img src="images\industry.png" alt="" id='i3'>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-0">
+          <div class="row1">
+            <div class="col1">
               <img src="images\life on land.png" alt="" id='i4'>
             </div>
-            <div class="col-sm-0">
+            <div class="col1">
               <img src="images\affordable energey.png" alt="" id='i5'>
             </div>
-            <div class="col-sm-0">
+            <div class="col1">
               <img src="images\affordable energey.png" alt="" id='i6'>
             </div>
           </div>
@@ -108,41 +113,79 @@
       <br>
       <div class="sponsors" id ='sponsors'>
          <h1 id="spo">Our Sponsors</h1> 
-         <img src="images/hac-white.png" alt="IEEE" id="s1">
-         <img src="images/ieeecs-white.png" alt="IEEE" id="s2">
-         <img src="images/wolfram_big.png" alt="IEEE" id="s3">
-         <img src="images/agappe white.png" alt="IEEE" id="s4">
-         <img src="images/dig ocean.png" alt="IEEE" id="s5">
-         <img src="images/sketch.png" alt="IEEE" id="s6">
-         <img src="images/microsoft.png" alt="IEEE" id="s7">
-         <img src="images/rot.png" alt="IEEE" id="s8">
+         <div class="row-cnt">
+          <img src="images/hac-white.png" alt="IEEE" id="s1">
+          <img src="images/ieeecs-white.png" alt="IEEE" id="s2">
+          <img src="images/wolfram_big.png" alt="IEEE" id="s3">
+          <img src="images/agappe white.png" alt="IEEE" id="s4">
+          <img src="images/dig ocean.png" alt="IEEE" id="s5">
+          <img src="images/sketch.png" alt="IEEE" id="s6">
+          <img src="images/microsoft.png" alt="IEEE" id="s7">
+          <img src="images/rot.png" alt="IEEE" id="s8">
+         </div>
       </div>
       <div class="come" id ='come'>
         <h1 id="coming">.Hack(); 2022</h1> 
         <h3 id="coming1">Coming Soon!!</h3>
-
-        <div class="last_box">
-          <img src="/Images/Logo Techie (1).png" alt="hack-logo" id="img_last">
-          <br> 
-            <p id="last_abt">.hack intend to optimize opportunities for students with no barriers in their field of interest in scientific technology, we strive to look for passionate work and creativity.</p>
-   
-        </div>
      </div>
+     <section id="footer">
+      <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Quick links</h5>
+            <ul class="list-quick-links">
+              <li><a href="./#about"></i>Home</a></li>
+              <li><a href="./#about"></i>About</a></li>
+              <li><a href="./#winners"></i>Topteams</a></li>
+              <li><a href="./#themes"></i>Themes</a></li>
+            </ul>
+          </div>
+          
+        <div class="row-sm">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+            <ul class="social-text-center">
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+          </div>
+          <hr>
+  </p>
+        </div>	
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+            <p> Contact 123456789</p>
+            <p class="h6">© All right Reversed.<a class="text-green ml-2" href="#" target="_blank">>.hack()</a></p>
+          </div>
+          <hr>
+        </div>	
+      </div>
+    </section>
+     <script>
+      function myFun(){
+        const btn=document.getElementById("bars");
+        const list=document.getElementById("list-res");
+        btn.addEventListener("click",(event)=>{
+            if(list.style.display=="none"){
+                list.style.display="block"
+                event.preventDefault()
+            }else{
+                list.style.display="none"
+                event.preventDefault()
+            }
+        })
+    }
+    function dropdown(){
+      const d=document.getElementById("dropdown");
+      if(d.style.display=="block"){
+        d.style.display="none"
+      }else{
+        d.style.display="block"
+      }
+    }
+    </script>
 </body>
-<script>
-  function myFun(){
-    const btn=document.getElementById("bars");
-    const list=document.getElementById("list-res");
-    list.style.display="none"
-    btn.addEventListener("click",(event)=>{
-        if(list.style.display=="none"){
-            list.style.display="block"
-            event.preventDefault()
-        }else{
-            list.style.display="none"
-            event.preventDefault()
-        }
-    })
-}
-</script>
+
 </html>
