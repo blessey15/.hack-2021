@@ -709,7 +709,7 @@ html, body {
     #dropdown{ display: none;}
 .landingpage{
 position: relative;
-background-image: url("images/pexels-max-deroin-51415.jpg");
+background-image: url("/images/pexels-max-deroin-51415.jpg");
 background-repeat: no-repeat;
 max-width: 100%;
 background-size: cover;
@@ -983,7 +983,7 @@ background-size: cover;
 }
 
 body{
-    background-image: url('images/bg.png');
+    background-image: url('/images/bg.png');
     background-color: black;
     background-attachment: fixed;
     background-repeat: no-repeat;
