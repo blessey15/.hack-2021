@@ -9,9 +9,12 @@ function dropdown(){
 
  
 
-
-  //https://codepen.io/knyttneve/pen/YgZbLO
-  //https://codepen.io/TiagoLopes/pen/vZBMWB
-  //https://codepen.io/linux/pen/gxgWQy
-  //https://codepen.io/YaroslavW/pen/zdmqpb
-  //https://codepen.io/JacksonTsai/pen/RExgBq
+  (function($){
+    'use strict';
+      $(window).on('load', function () {
+          if ($(".preloader").length > 0)
+          {
+              $(".preloader").fadeOut("slow");
+          }
+      });
+  })(jQuery)

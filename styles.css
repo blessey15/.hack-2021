@@ -67,6 +67,19 @@ html, body {
       
     
     @media only screen and (max-width: 600px) {
+        .aftermovie{
+            margin-top: 96%;
+        }
+        .overview img{
+            width: 200px;
+            height: 200px;
+          }
+        .overview-row{
+            margin-top: -20%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 5%;
+         }
         .nav-down a svg{
             margin-left: 5%;
             margin-bottom: 8%;
@@ -76,15 +89,15 @@ html, body {
             height: 400px;
         }
         #card1 {
-            top: 44.8%;
+            top: 41.6%;
             margin-left: 40%;
         }
         #card2{
-            top: 51.2%;
+            top: 47.6%;
             margin-left: 40%;
         }
         #card3{
-            top: 57.6%;
+            top: 53.6%;
             margin-left: 40%;
         }
         .win-cont{
@@ -278,6 +291,18 @@ html, body {
                 }
     }
     @media only screen and (min-width: 600px){
+        .aftermovie{
+            margin-top: 96%;
+        }
+        .overview img{
+            width: 280px;
+            height: 280px;
+          }
+        .overview-row{
+            display: flex;
+            flex-direction: column;
+            margin-left: 10%;
+         }
         .nav-down a svg{
             margin-left: 50%;
             margin-top: 80%;
@@ -287,15 +312,15 @@ html, body {
             height: 400px;
         }
         #card1 {
-            top: 45.3%;
+            top: 41.6%;
             margin-left: 40%;
         }
         #card2{
-            top: 51.4%;
+            top: 47.6%;
             margin-left: 40%;
         }
         #card3{
-            top: 57.6%;
+            top: 53.6%;
             margin-left: 40%;
         }
         .win-cont{
@@ -490,6 +515,17 @@ html, body {
             
     }
     @media only screen and (min-width: 768px){
+        .aftermovie{
+            margin-top: 0%;
+        }
+        .overview img{
+            width: 200px;
+            height: 200px;
+          }
+        .overview-row{
+            display: flex;
+            flex-direction: row;
+         }
         .nav-down a svg{
             margin-left: 5%;
             margin-top: 3%;
@@ -510,15 +546,15 @@ html, body {
             flex-direction: row;
         }
         #card1 {
-            top: 47%;
+            top: 45%;
             margin-left: 20%;
         }
         #card2{
-            top:47%;
+            top:45%;
             margin-left: 50%;
         }
         #card3{
-            top: 47%;
+            top: 45%;
             margin-left: 80%;
         }
         .win-cont{
@@ -719,6 +755,15 @@ background-size: cover;
         color: white;
     }
     @media only screen and (min-width: 1200px) {
+        .overview img{
+            width: 270px;
+            height: 270px;
+          }
+         .overview-row{
+            display: flex;
+            flex-direction: row;
+            margin-left: 12%;
+         }
         .nav-down a svg{
             margin-left: 5%;
             margin-bottom: 8%;
@@ -735,15 +780,15 @@ background-size: cover;
             height: 400px;
         }
         #card1 {
-            top: 48%;
+            top: 45%;
             margin-left: 20%;
         }
         #card2{
-            top: 48%;
+            top: 45%;
             margin-left: 50%;
         }
         #card3{
-            top: 48%;
+            top: 45%;
             margin-left: 80%;
         }
         .win-cont{
@@ -1181,6 +1226,7 @@ color: #FFFFFF;
         color: #fff;
     }
     .win-cont{
+        margin-left: 2%;
         width: 100%;
     }
    
@@ -1202,3 +1248,17 @@ color: #FFFFFF;
         display: inline-block;
         transform: translate(-50%);
       }
+      #preloader {
+        background-color: black;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    .preloader img{
+        margin-left:47%;
+        margin-top:25%;
+        width: 100px;
+        height: 100px;
+    }
