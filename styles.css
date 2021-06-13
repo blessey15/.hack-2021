@@ -1248,4 +1248,17 @@ color: #FFFFFF;
         display: inline-block;
         transform: translate(-50%);
       }
-    
+      #preloader {
+        background-color: black;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    .preloader img{
+        margin-left:47%;
+        margin-top:25%;
+        width: 100px;
+        height: 100px;
+    }
