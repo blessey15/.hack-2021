@@ -69,7 +69,7 @@ html, body {
     
     @media only screen and (max-width: 600px) {
         .sponsors-20{
-            margin-top: 25%;
+            margin-top: 35%;
             height: 620px;
         }
         .spo-r1 , .spo-r2{
@@ -113,15 +113,15 @@ html, body {
             height: 400px;
         }
         #card1 {
-            top: 50.6%;
+            top: 46.6%;
             margin-left: 40%;
         }
         #card2{
-            top: 55.6%;
+            top: 51.6%;
             margin-left: 40%;
         }
         #card3{
-            top: 60.6%;
+            top: 56.6%;
             margin-left: 40%;
         }
         .win-cont{
@@ -349,6 +349,7 @@ html, body {
             height: 280px;
           }
         .overview-row{
+            margin-top: -20%;
             display: flex;
             flex-direction: column;
             margin-left: 10%;
@@ -362,15 +363,15 @@ html, body {
             height: 400px;
         }
         #card1 {
-            top: 43%;
+            top: 40%;
             margin-left: 40%;
         }
         #card2{
-            top: 48.31%;
+            top: 45.31%;
             margin-left: 40%;
         }
         #card3{
-            top: 53.6%;
+            top: 50.6%;
             margin-left: 40%;
         }
         .win-cont{
@@ -818,7 +819,7 @@ html, body {
     #dropdown{ display: none;}
 .landingpage{
 position: relative;
-background-image: url("../../Images/pexels-max-deroin-51415.jpg");
+background-image: url("./Images/pexels-max-deroin-51415.jpg");
 background-repeat: no-repeat;
 max-width: 100%;
 background-size: cover;
@@ -1127,7 +1128,7 @@ background-size: cover;
 }
 
 body{
-    background-image: url('../../Images/bg.png');
+    background-image: url('./Images/bg.png');
     background-color: black;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -1367,8 +1368,22 @@ background: linear-gradient(0deg, rgba(27,179,95,1) 0%, rgba(27,179,95,1) 0%, rg
     background-color: rgba(27, 179, 95, 0.75);
     height: 400px;
     width: 250px;
-
-}
+    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+  transition: all 0.3s ease-out;
+}.card2-1:active {
+    transform: scale(1) translateZ(0);
+    box-shadow: 0 15px 24px rgba(0,0,0,0.11),
+      0 15px 24px var(--box-shadow-color);
+  }
+  .card2-1:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+      0 24px 46px var(--box-shadow-color);
+  }
+  
+  .card2-1:hover .overlay {
+    transform: scale(4) translateZ(0);
+  }
 .card2-1 p , .card2-1 h2{
     color: white;
     padding: 1rem;
