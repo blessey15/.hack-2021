@@ -21,7 +21,31 @@ html, body {
         width: 220px;
         height: 66px;
     }
-    
+    #text{
+           background-color: black;
+    }
+    .console-container {
+        position:absolute;
+        font-family: Ropa Sans;
+        font-style:normal;
+font-weight:500;
+font-size: 50px;
+left: 50%;
+justify-content: center;
+margin-top: 45%;
+        transform: translate(-50%, -50%);
+    }
+
+    .console-underscore {
+        display:inline;
+        position: relative;
+        color: white;
+    }
+
+    .container {
+        position: relative;
+        text-align: center;
+    }
     .li-cont ul{
         display : flex;
         flex-direction: row;
@@ -260,8 +284,9 @@ html, body {
     position: absolute;
     width: 300px;
     height: 300px;
-    margin-left: 15%;
-    margin-top: 10%;
+    margin: 10%;
+    align-self: center;
+    
     }
     #win1 {
         position: absolute;
