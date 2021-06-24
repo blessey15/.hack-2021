@@ -18,8 +18,8 @@ html, body {
 
     .logo-cont img {
         padding: 10px;
-        width: 120px;
-        height: 60px;
+        width: 220px;
+        height: 66px;
     }
     
     .li-cont ul{
@@ -44,6 +44,7 @@ html, body {
         align-items: right;
     }
     .nav-cont{
+        position: static;
         display: flex;
         justify-content: space-between;
         background: rgba(0, 0, 0, 0.3);
@@ -67,6 +68,29 @@ html, body {
       
     
     @media only screen and (max-width: 600px) {
+        .sponsors-20{
+            margin-top: 35%;
+            height: 620px;
+        }
+        .spo-r1 , .spo-r2{
+            height: 180px;
+        }
+        .card2-1{
+            height: 420px;
+             width: 200px;
+        }
+        .card-row{
+            margin-top: 1%;
+        }
+        .card2-1{
+            margin: 10%;
+        }
+        .card-row1 {
+            margin-left: 3%;
+        }
+        .card-row2 {
+            margin-left: 3%;
+        }
         .aftermovie{
             margin-top: 96%;
         }
@@ -89,21 +113,21 @@ html, body {
             height: 400px;
         }
         #card1 {
-            top: 41.6%;
+            top: 46.6%;
             margin-left: 40%;
         }
         #card2{
-            top: 47.6%;
+            top: 51.6%;
             margin-left: 40%;
         }
         #card3{
-            top: 53.6%;
+            top: 56.6%;
             margin-left: 40%;
         }
         .win-cont{
             height: 2000px;
         }
-        .social-text-center{
+        .social-text-center {
             float: center;
             margin-left: 33%;
         }
@@ -213,7 +237,7 @@ html, body {
         }
         .about{
             width: 100%;
-            height: 624px;
+            height: 2024px;
         }
         .abhead , #w , #th ,#t ,#rewind , #spo ,#coming ,#win-title{
             font-weight: bolder;
@@ -291,6 +315,32 @@ html, body {
                 }
     }
     @media only screen and (min-width: 600px){
+        .sponsors-20{
+            height: 600px;
+        }
+        .spo-r1 , .spo-r2{
+            height: 200px;
+        }
+        .card2-1{
+            height: 420px;
+             width: 200px;
+        }
+        .card-row1 ,.card-row2{
+            display: flex;
+            flex-direction: row;
+        }
+        .card-row{
+            margin-top: 1%;
+        }
+        .card2-1{
+            margin: 10%;
+        }
+        .card-row1 {
+            margin-left: 3%;
+        }
+        .card-row2 {
+            margin-left: 3%;
+        }
         .aftermovie{
             margin-top: 96%;
         }
@@ -299,6 +349,7 @@ html, body {
             height: 280px;
           }
         .overview-row{
+            margin-top: -20%;
             display: flex;
             flex-direction: column;
             margin-left: 10%;
@@ -312,21 +363,21 @@ html, body {
             height: 400px;
         }
         #card1 {
-            top: 41.6%;
+            top: 40%;
             margin-left: 40%;
         }
         #card2{
-            top: 47.6%;
+            top: 45.31%;
             margin-left: 40%;
         }
         #card3{
-            top: 53.6%;
+            top: 50.6%;
             margin-left: 40%;
         }
         .win-cont{
             height: 2000px;
         }
-        .social-text-center{
+        .social-text-center {
             float: right;
         }
         .winners{
@@ -335,8 +386,7 @@ html, body {
         .container{
             display: flex;
             flex-direction: column;
-            padding-top: 2rem;
-            padding-bottom: 3rem;
+            
         }
         
         #aftermovie{
@@ -488,7 +538,7 @@ html, body {
     
     .about{
         width: 100%;
-        height: 724px;
+        height: 1200px;
     }
         .li-cont ul li{
             align-items: right;
@@ -515,6 +565,32 @@ html, body {
             
     }
     @media only screen and (min-width: 768px){
+        .sponsors-20{
+            height: 700px;
+        }
+        .spo-r1 , .spo-r2{
+            height: 240px;
+        }
+        .card2-1{
+            height: 350px;
+             width: 180px;
+        }
+        .card-row1 ,.card-row2{
+            display: flex;
+            flex-direction: row;
+        }
+        .card-row{
+            margin-top: 1%;
+        }
+        .card2-1{
+            margin: 10%;
+        }
+        .card-row1 {
+            margin-left: 3%;
+        }
+        .card-row2 {
+            margin-left: 3%;
+        }
         .aftermovie{
             margin-top: 0%;
         }
@@ -546,21 +622,21 @@ html, body {
             flex-direction: row;
         }
         #card1 {
-            top: 45%;
+            top: 43%;
             margin-left: 20%;
         }
         #card2{
-            top:45%;
+            top:43%;
             margin-left: 50%;
         }
         #card3{
-            top: 45%;
+            top: 43%;
             margin-left: 80%;
         }
         .win-cont{
             height: 720px;
         }
-        .social-text-center{
+        .social-text-center {
             float: right;
         }
         .nav-down{
@@ -573,8 +649,6 @@ html, body {
         .container{
             display: flex;
             flex-direction: row;
-            padding-top: 2rem;
-            padding-bottom: 4rem;
         }
         #aftermovie{
             height: 824px;
@@ -667,7 +741,7 @@ html, body {
     }
     .about{
         width: 100%;
-        height: 850px;
+        height: 1300px;
     }
     #come{
         height: 441px;
@@ -755,6 +829,32 @@ background-size: cover;
         color: white;
     }
     @media only screen and (min-width: 1200px) {
+        .sponsors-20{
+            height: 900px;
+        }
+        .spo-r1 , .spo-r2{
+            height: 300px;
+        }
+        .card2-1{
+            height: 400px;
+             width: 250px;
+        }
+        .card-row ,.card-row1 ,.card-row2{
+            display: flex;
+            flex-direction: row;
+        }
+        .card-row{
+            margin-top: 5%;
+        }
+        .card2-1{
+            margin: 4%;
+        }
+        .card-row1 {
+            margin-left: 10%;
+        }
+        .card-row2 {
+            margin-left: -8%;
+        }
         .overview img{
             width: 270px;
             height: 270px;
@@ -780,21 +880,21 @@ background-size: cover;
             height: 400px;
         }
         #card1 {
-            top: 45%;
+            top: 40%;
             margin-left: 20%;
         }
         #card2{
-            top: 45%;
+            top: 40%;
             margin-left: 50%;
         }
         #card3{
-            top: 45%;
+            top: 40%;
             margin-left: 80%;
         }
         .win-cont{
             height: 900px;
         }
-        .social-text-center{
+        .social-text-center {
             float: right;
         }
         #img1{
@@ -906,10 +1006,10 @@ background-size: cover;
             margin-left: 50%;
         }
         
-        .abhead , #w , #th ,#t ,#rewind , #spo ,#coming , #win-title{
+        .abhead , #w , #th ,#t ,#rewind , #spo ,#coming , #win-title {
             font-weight: bold;
-            font-size: 80px;
-            line-height: 117px;
+            font-size: 70px;
+            line-height: 110px;
             color: #FFFFFF;
             margin-left: 20%;
             margin-top: 4%;
@@ -1134,7 +1234,8 @@ color: #FFFFFF;
     color: #FFFFFF;
     }
     section{
-        background-color: rgba(27,179,95,0.7);
+        background: rgb(27,179,95);
+background: linear-gradient(0deg, rgba(27,179,95,1) 0%, rgba(27,179,95,1) 0%, rgba(50,224,117,1) 7%, rgba(137,225,160,1) 100%);
     }
     h5{
         margin-top: 2rem;
@@ -1156,7 +1257,7 @@ color: #FFFFFF;
         color: rgb(198, 219, 193);
         text-decoration: none;
     }
-    .social-text-center{
+    .social-text-center {
         display: flex;
         flex-direction: row;
         width: 30%;
@@ -1262,3 +1363,40 @@ color: #FFFFFF;
         width: 100px;
         height: 100px;
     }
+.card2-1{
+    text-align: center;
+    background-color: rgba(27, 179, 95, 0.75);
+    height: 400px;
+    width: 250px;
+    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+  transition: all 0.3s ease-out;
+}.card2-1:active {
+    transform: scale(1) translateZ(0);
+    box-shadow: 0 15px 24px rgba(0,0,0,0.11),
+      0 15px 24px var(--box-shadow-color);
+  }
+  .card2-1:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+      0 24px 46px var(--box-shadow-color);
+  }
+  
+  .card2-1:hover .overlay {
+    transform: scale(4) translateZ(0);
+  }
+.card2-1 p , .card2-1 h2{
+    color: white;
+    padding: 1rem;
+}
+
+
+.spo-r1 , .spo-r2{
+    background-color: rgba(0, 0, 0, 0.74);
+    margin-bottom: 2%;
+}
+.sponsors-20 h1{
+    margin: 2%;
+    text-align: center;
+    padding: 0.2%;
+}
+  
