@@ -771,7 +771,7 @@ html, body {
                 width: 120px;
                 height: 120px;
                 left: 63%;
-                top: 180px;
+                top: 181px;
             margin-top: 827%;
             }
         .card2-1{
@@ -1619,6 +1619,7 @@ background: linear-gradient(0deg, rgba(27,179,95,1) 0%, rgba(27,179,95,1) 0%, rg
         top: 0;
         left: 0%;
     }
+
     .card .details h2 {
         color: #fff;
         text-align: center;
