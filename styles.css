@@ -1693,7 +1693,9 @@ background: linear-gradient(0deg, rgba(27,179,95,1) 0%, rgba(27,179,95,1) 0%, rg
     text-align: center;
     padding: 0.2%;
 }
-  
+.mail-sm{
+    color: white;
+}
 #text{
     background-color: black;
 }
