@@ -68,8 +68,11 @@ html, body {
       
     
     @media only screen and (max-width: 600px) {
+        .mail-sm{
+            margin-left: 0%;
+        }
         .sponsors-20{
-            margin-top: 25%;
+            margin-top: 35%;
             height: 620px;
         }
         .spo-r1 , .spo-r2{
@@ -216,15 +219,15 @@ html, body {
             height: 400px;
         }
         #card1 {
-            top: 50.6%;
+            top: 46.6%;
             margin-left: 40%;
         }
         #card2{
-            top: 55.6%;
+            top: 51.6%;
             margin-left: 40%;
         }
         #card3{
-            top: 60.6%;
+            top: 56.6%;
             margin-left: 40%;
         }
         .win-cont{
@@ -418,6 +421,9 @@ html, body {
                 }
     }
     @media only screen and (min-width: 600px){
+        .mail-sm{
+            margin-left: 72%;
+        }
         .sponsors-20{
             height: 600px;
         }
@@ -452,6 +458,7 @@ html, body {
             height: 280px;
           }
         .overview-row{
+            margin-top: -10%;
             display: flex;
             flex-direction: column;
             margin-left: 10%;
@@ -465,15 +472,15 @@ html, body {
             height: 400px;
         }
         #card1 {
-            top: 43%;
+            top: 40%;
             margin-left: 40%;
         }
         #card2{
-            top: 48.31%;
+            top: 45.31%;
             margin-left: 40%;
         }
         #card3{
-            top: 53.6%;
+            top: 50.6%;
             margin-left: 40%;
         }
         .win-cont{
@@ -667,6 +674,9 @@ html, body {
             
     }
     @media only screen and (min-width: 768px){
+        .mail-sm{
+            margin-left: 70%;
+        }
         .sponsors-20{
             height: 700px;
         }
@@ -1033,6 +1043,9 @@ background-size: cover;
         color: white;
     }
     @media only screen and (min-width: 1200px) {
+        .mail-sm{
+            margin-left: 70%;
+        }
         .sponsors-20{
             height: 900px;
         }
@@ -1187,15 +1200,15 @@ background-size: cover;
             height: 400px;
         }
         #card1 {
-            top: 40%;
+            top: 38%;
             margin-left: 20%;
         }
         #card2{
-            top: 40%;
+            top: 38%;
             margin-left: 50%;
         }
         #card3{
-            top: 40%;
+            top: 38%;
             margin-left: 80%;
         }
         .win-cont{
@@ -1541,8 +1554,8 @@ color: #FFFFFF;
     color: #FFFFFF;
     }
     section{
-        background: rgb(27,179,95);
-background: linear-gradient(0deg, rgba(27,179,95,1) 0%, rgba(27,179,95,1) 0%, rgba(50,224,117,1) 7%, rgba(137,225,160,1) 100%);
+        background: rgb(50,224,117);
+background: linear-gradient(0deg, rgba(50,224,117,1) 0%, rgba(27,179,95,1) 0%, rgba(34,159,90,1) 7%, rgba(0,0,0,1) 100%);
     }
     h5{
         margin-top: 2rem;
@@ -1676,8 +1689,22 @@ background: linear-gradient(0deg, rgba(27,179,95,1) 0%, rgba(27,179,95,1) 0%, rg
     background-color: rgba(27, 179, 95, 0.75);
     height: 400px;
     width: 250px;
-
-}
+    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+  transition: all 0.3s ease-out;
+}.card2-1:active {
+    transform: scale(1) translateZ(0);
+    box-shadow: 0 15px 24px rgba(0,0,0,0.11),
+      0 15px 24px var(--box-shadow-color);
+  }
+  .card2-1:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+      0 24px 46px var(--box-shadow-color);
+  }
+  
+  .card2-1:hover .overlay {
+    transform: scale(4) translateZ(0);
+  }
 .card2-1 p , .card2-1 h2{
     color: white;
     padding: 1rem;
@@ -1693,6 +1720,7 @@ background: linear-gradient(0deg, rgba(27,179,95,1) 0%, rgba(27,179,95,1) 0%, rg
     text-align: center;
     padding: 0.2%;
 }
+
 .mail-sm{
     color: white;
 }
@@ -1722,5 +1750,7 @@ margin-top: 45%;
  text-align: center;
 }
 
-
+.mail-sm{
+    color: white;
+}
 
