@@ -68,6 +68,9 @@ html, body {
       
     
     @media only screen and (max-width: 600px) {
+        .console-container{
+            margin-top: 75%;
+        }
         .mail-sm{
             margin-left: 0%;
         }
@@ -81,56 +84,56 @@ html, body {
         #sp1
             {
                 position: absolute;
-                width: 135px;
-                height: 135px;
-                left: 35px;
-                margin-top: 1350%;
+                width: 0px;
+                height: 0px;
+                left: 15px;
+                margin-top: 122%;
                 top: 180px;
             }
             #sp2
             {
                 position: absolute;
-                width: 135px;
-                height: 135px;
-            left: 35px;
+                width: 105px;
+                height: 105px;
+            left: 15px;
             top: 180px;
-            margin-top:1365%;
+            margin-top:124%;
             }
             #sp3
             {
                 position: absolute;
-                width: 135px;
-                height: 135px;
-            left: 200px;
+                width: 115px;
+                height: 115px;
+            left: 140px;
             top: 180px;
-            margin-top:1350%;
+            margin-top:122%;
             }
             #sp4
             {
                 position: absolute;
-                width: 135px;
-                height: 135px;
+                width: 0px;
+                height: 0px;
             left: 200px;
             top: 180px;
-            margin-top: 1365%;
+            margin-top: 120%;
             }
             #sp5
             {
                 position: absolute;
                 width: 150px;
                 height: 150px;
-                left: 400px;
+                left: 600px;
                 top: 180px;
-            margin-top: 1350%;
+            margin-top: 120%;
             }
             #sp6
             {
                 position: absolute;
                 width: 150px;
                 height: 150px;
-                left: 400px;
+                left: 280px;
                 top: 180px;
-            margin-top: 1365%;
+            margin-top: 120%;
             }
             #sq1{
                 position: absolute;
@@ -152,9 +155,9 @@ html, body {
                 position: absolute;
                 width: 135px;
                 height: 135px;
-                left: 35%;
+                left: 5%;
                 top: 180px;
-                margin-top: 1387%;
+                margin-top: 165%;
             }
             #sq4{
                 position: absolute;
@@ -162,15 +165,15 @@ html, body {
                 height: 90px;
                 left: 40%;
                 top: 180px;
-            margin-top: 1405%;
+            margin-top: 167%;
             }
             #sq5{
                 position: absolute;
-                width: 135px;
-                height: 135px;
+                width: 0px;
+                height: 0px;
                 left: 63%;
                 top: 180px;
-            margin-top:1387%;
+            margin-top:137%;
             }
             #sq6{
                 position: absolute;
@@ -178,7 +181,7 @@ html, body {
                 height: 90px;
                 left: 63%;
                 top: 180px;
-            margin-top: 1400%;
+            margin-top: 165%;
             }
 
         .card2-1{
@@ -219,21 +222,22 @@ html, body {
             height: 400px;
         }
         #card1 {
-            top: 46.6%;
+            top: 49.8%;
             margin-left: 40%;
         }
         #card2{
-            top: 51.6%;
+            top: 54.6%;
             margin-left: 40%;
         }
         #card3{
-            top: 56.6%;
+            top: 59.6%;
             margin-left: 40%;
         }
         .win-cont{
             height: 2000px;
         }
         .social-text-center {
+            width: 30%;
             float: center;
             margin-left: 33%;
         }
@@ -421,6 +425,108 @@ html, body {
                 }
     }
     @media only screen and (min-width: 600px){
+        #sp1
+        {
+            position: absolute;
+            width: 105px;
+            height: 105px;
+            left: 15px;
+            margin-top: 64%;
+            top: 180px;
+        }
+        #sp2
+        {
+            position: absolute;
+            width: 105px;
+            height: 105px;
+        left: 95px;
+        top: 180px;
+        margin-top:64%;
+        }
+        #sp3
+        {
+            position: absolute;
+            width: 125px;
+            height: 125px;
+        left: 200px;
+        top: 180px;
+        margin-top:62%;
+        }
+        #sp4
+        {
+            position: absolute;
+            width: 135px;
+            height: 135px;
+        left: 330px;
+        top: 180px;
+        margin-top: 62%;
+        }
+        #sp5
+        {
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            left: 470px;
+            top: 180px;
+        margin-top: 62%;
+        }
+        #sp6
+        {
+            position: absolute;
+            width: 130px;
+            height: 130px;
+            left: 600px;
+            top: 180px;
+        margin-top: 62%;
+        }
+        #sq1{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            left: 20px;
+            top: 180px;
+            margin-top: 90%;
+        }
+        #sq2{
+            position: absolute;
+            width: 120px;
+            height: 120px;
+        left: 125px;
+        top: 180px;
+        margin-top:90%;
+        }
+        #sq3{
+            position: absolute;
+            width: 135px;
+            height: 135px;
+            left: 35%;
+            top: 180px;
+            margin-top: 90%;
+        }
+        #sq4{
+            position: absolute;
+            width: 90px;
+            height: 90px;
+            left: 54%;
+            top: 180px;
+        margin-top: 90%;
+        }
+        #sq5{
+            position: absolute;
+            width: 135px;
+            height: 135px;
+            left: 70%;
+            top: 180px;
+        margin-top: 90%;
+        }
+        #sq6{
+            position: absolute;
+            width: 90px;
+            height: 90px;
+            left: 90%;
+            top: 180px;
+        margin-top: 89%;
+        }
         .mail-sm{
             margin-left: 72%;
         }
@@ -487,6 +593,7 @@ html, body {
             height: 2000px;
         }
         .social-text-center {
+            width: 30%;
             float: right;
         }
         .winners{
@@ -674,8 +781,11 @@ html, body {
             
     }
     @media only screen and (min-width: 768px){
+        .console-container{
+            margin-top: 60%;
+        }
         .mail-sm{
-            margin-left: 70%;
+            margin-left: 50%;
         }
         .sponsors-20{
             height: 700px;
@@ -686,38 +796,38 @@ html, body {
         #sp1
             {
                 position: absolute;
-                width: 180px;
-                height: 180px;
+                width: 150px;
+                height: 150px;
                 left: 35px;
                 top: 180px;
-                margin-top: 777%;
+                margin-top: 46%;
             }
             #sp2
             {
                 position: absolute;
-                width: 180px;
-                height: 180px;
-            left: 35px;
+                width: 160px;
+                height: 160px;
+            left: 20rem;
             top: 180px;
-            margin-top:790%;
+            margin-top:45.8%;
             }
             #sp3
             {
                 position: absolute;
-            width: 150px;
-            height: 150px;
+            width: 140px;
+            height: 140px;
             left: 35%;
             top: 180px;
-            margin-top: 777%;
+            margin-top: 46%;
             }
             #sp4
             {
                 position: absolute;
                 width: 150px;
                 height: 150px;
-                left: 35%;
+                left: 48%;
                 top: 180px;
-            margin-top: 790%;
+                margin-top: 47%;
             }
             #sp5
             {
@@ -726,16 +836,16 @@ html, body {
                 height: 150px;
                 left: 63%;
                 top: 180px;
-            margin-top: 777%;
+            margin-top: 46.7%;
             }
             #sp6
             {
                 position: absolute;
                 width: 150px;
                 height: 150px;
-                left: 63%;
+                left: 79%;
                 top: 180px;
-            margin-top: 790%;
+            margin-top: 47%;
             }
             #sq1{
                 position: absolute;
@@ -743,47 +853,47 @@ html, body {
                 height: 150px;
                 left: 35px;
                 top: 180px;
-                margin-top: 815%;
+                margin-top: 68%;
             }
             #sq2{
                 position: absolute;
                 width: 180px;
                 height: 180px;
-            left: 35px;
+            left: 20rem;
             top: 180px;
-            margin-top:827%;
+            margin-top: 67%;
             }
             #sq3{
                 position: absolute;
                 width: 135px;
                 height: 135px;
-                left: 35%;
+                left: 39%;
                 top: 180px;
-                margin-top: 812%;
+                margin-top: 69%;
             }
             #sq4{
                 position: absolute;
                 width: 125px;
                 height: 125px;
-                left: 35%;
+                left: 53%;
                 top: 180px;
-            margin-top: 827%;
+            margin-top: 69.4%;
             }
             #sq5{
                 position: absolute;
                 width: 120px;
                 height: 120px;
-                left: 63%;
+                left: 68%;
                 top: 180px;
-            margin-top: 815%;
+            margin-top: 69%;
             }
             #sq6{
                 position: absolute;
                 width: 120px;
                 height: 120px;
-                left: 63%;
+                left: 85%;
                 top: 181px;
-            margin-top: 827%;
+            margin-top: 68%;
             }
         .card2-1{
             height: 350px;
@@ -836,22 +946,26 @@ html, body {
             flex-direction: row;
         }
         #card1 {
-            top: 43%;
+            top: 47%;
             margin-left: 20%;
         }
         #card2{
-            top:43%;
+            top:47%;
             margin-left: 50%;
         }
         #card3{
-            top: 43%;
+            top: 47%;
             margin-left: 80%;
         }
         .win-cont{
             height: 720px;
         }
         .social-text-center {
-            float: right;
+            float: left;
+        }
+        .social-text-center li a{
+            margin-left: 0px;
+            padding: 1rem;
         }
         .nav-down{
             margin-left: 45%;
@@ -883,7 +997,10 @@ html, body {
             padding: 0px;
             margin: 0px;
         }
-        
+        .cprt {
+            margin-left: -400%;
+            margin-top: 300%;
+        }
 #win1 {
     position: absolute;
     width: 500px;
@@ -1043,6 +1160,9 @@ background-size: cover;
         color: white;
     }
     @media only screen and (min-width: 1200px) {
+        .console-container{
+            margin-top: 60%;
+        }
         .mail-sm{
             margin-left: 70%;
         }
@@ -1059,16 +1179,16 @@ background-size: cover;
                 height: 150px;
                 left: 48px;
                 top: 302px;
-                margin-top: 460%;
+                margin-top: 35%;
             }
             #sp2
             {
                 position: absolute;
-            width: 187px;
+            width: 180px;
             height: 193px;
             left: 254px;
             top: 277px;
-            margin-top: 460%;
+            margin-top: 35%;
             }
             #sp3
             {
@@ -1077,7 +1197,7 @@ background-size: cover;
             height: 150px;
             left: 496px;
             top: 302px;
-            margin-top: 460%;
+            margin-top: 35%;
             }
             #sp4
             {
@@ -1086,7 +1206,7 @@ background-size: cover;
             height: 200px;
             left: 686px;
             top: 277px;
-            margin-top: 460%;
+            margin-top: 35%;
             }
             #sp5
             {
@@ -1095,7 +1215,7 @@ background-size: cover;
             height: 200px;
             left: 926px;
             top: 270px;
-            margin-top: 460%;
+            margin-top: 35%;
             }
             #sp6
             {
@@ -1104,7 +1224,7 @@ background-size: cover;
             height: 200px;
             left: 1166px;
             top: 260px;
-            margin-top: 460%;
+            margin-top: 35%;
             }
             #sq1{
                 position: absolute;
@@ -1112,7 +1232,7 @@ background-size: cover;
             height: 150px;
             left: 85px;
             top: 591px;
-            margin-top: 463%;
+            margin-top: 35%;
             }
             #sq2{
                 position: absolute;
@@ -1120,7 +1240,7 @@ background-size: cover;
                 height: 200px;
                 left: 283px;
                 top: 571px;
-                margin-top: 463%;
+                margin-top: 35%;
             }
             #sq3{
                 position: absolute;
@@ -1128,7 +1248,7 @@ background-size: cover;
             height: 200px;
             left: 545px;
             top: 571px;
-            margin-top: 463%;
+            margin-top: 35%;
             }
             #sq4{
                 position: absolute;
@@ -1136,7 +1256,7 @@ background-size: cover;
             height: 140px;
             left: 808px;
             top: 601px;
-            margin-top: 463%;
+            margin-top: 35%;
             }
             #sq5{
                 position: absolute;
@@ -1144,7 +1264,7 @@ background-size: cover;
             height: 200px;
             top: 576px;
             left: 996px;
-            margin-top: 463%;
+            margin-top: 35%;
             }
             #sq6{
                 position: absolute;
@@ -1152,7 +1272,7 @@ background-size: cover;
             height: 93px;
             left: 1252px;
             top: 619px;
-            margin-top: 463%;
+            margin-top: 35%;
             }
 
         .card2-1{
@@ -1200,22 +1320,30 @@ background-size: cover;
             height: 400px;
         }
         #card1 {
-            top: 38%;
+            top: 42%;
             margin-left: 20%;
         }
         #card2{
-            top: 38%;
+            top: 42%;
             margin-left: 50%;
         }
         #card3{
-            top: 38%;
+            top: 42%;
             margin-left: 80%;
         }
         .win-cont{
             height: 900px;
         }
         .social-text-center {
-            float: right;
+            width: 60%;
+            float: left;
+        }
+        .social-text-center li a{
+            padding: 1.2rem;
+        }
+        .cprt{
+            float: center;
+            
         }
         #img1{
             position: absolute;
@@ -1433,7 +1561,6 @@ background-size: cover;
 .spo-container{
     position: relative;
     width: 100%;
-    height: 1024px;
 }
 
 .aftermovie{
@@ -1580,7 +1707,6 @@ background: linear-gradient(0deg, rgba(50,224,117,1) 0%, rgba(27,179,95,1) 0%, r
     .social-text-center {
         display: flex;
         flex-direction: row;
-        width: 30%;
         margin-bottom: 10%;
     }
     .social-text-center li a{
@@ -1713,7 +1839,6 @@ background: linear-gradient(0deg, rgba(50,224,117,1) 0%, rgba(27,179,95,1) 0%, r
     padding: 1rem;
 }
 
-
 .spo-r1 , .spo-r2{
     background-color: rgba(0, 0, 0, 0.74);
     margin-bottom: 2%;
@@ -1729,6 +1854,7 @@ background: linear-gradient(0deg, rgba(50,224,117,1) 0%, rgba(27,179,95,1) 0%, r
     overflow :hidden;
     position: relative;
     margin: auto;
+    margin-bottom: 10%;
     box-shadow: 0 10px 20px -5px rgba(0,0,0,0.5);
 }
 
@@ -1768,9 +1894,7 @@ background: linear-gradient(0deg, rgba(50,224,117,1) 0%, rgba(27,179,95,1) 0%, r
         transform: translateX(calc(-250px * 7));
     }
 }
-#text{
-    background-color: black;
-}
+
 .console-container {
  position:absolute;
  font-family: Ropa Sans;
@@ -1779,7 +1903,6 @@ font-weight:500;
 font-size: 50px;
 left: 50%;
 justify-content: center;
-margin-top: 45%;
  transform: translate(-50%, -50%);
 }
 
