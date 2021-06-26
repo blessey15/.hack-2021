@@ -177,6 +177,7 @@ html, body {
                 top: 180px;
             margin-top: 1400%;
             }
+
         .card2-1{
             height: 420px;
              width: 200px;
@@ -1038,6 +1039,108 @@ background-size: cover;
         .spo-r1 , .spo-r2{
             height: 300px;
         }
+        #sp1
+            {
+                position: absolute;
+                width: 150px;
+                height: 150px;
+                left: 48px;
+                top: 302px;
+                margin-top: 460%;
+            }
+            #sp2
+            {
+                position: absolute;
+            width: 187px;
+            height: 193px;
+            left: 254px;
+            top: 277px;
+            margin-top: 460%;
+            }
+            #sp3
+            {
+                position: absolute;
+            width: 150px;
+            height: 150px;
+            left: 496px;
+            top: 302px;
+            margin-top: 460%;
+            }
+            #sp4
+            {
+                position: absolute;
+            width: 200px;
+            height: 200px;
+            left: 686px;
+            top: 277px;
+            margin-top: 460%;
+            }
+            #sp5
+            {
+                position: absolute;
+            width: 200px;
+            height: 200px;
+            left: 926px;
+            top: 270px;
+            margin-top: 460%;
+            }
+            #sp6
+            {
+                position: absolute;
+            width: 200px;
+            height: 200px;
+            left: 1166px;
+            top: 260px;
+            margin-top: 460%;
+            }
+            #sq1{
+                position: absolute;
+            width: 150px;
+            height: 150px;
+            left: 85px;
+            top: 591px;
+            margin-top: 463%;
+            }
+            #sq2{
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                left: 283px;
+                top: 571px;
+                margin-top: 463%;
+            }
+            #sq3{
+                position: absolute;
+            width: 200px;
+            height: 200px;
+            left: 545px;
+            top: 571px;
+            margin-top: 463%;
+            }
+            #sq4{
+                position: absolute;
+            width: 130px;
+            height: 140px;
+            left: 808px;
+            top: 601px;
+            margin-top: 463%;
+            }
+            #sq5{
+                position: absolute;
+                width: 200px;
+            height: 200px;
+            top: 576px;
+            left: 996px;
+            margin-top: 463%;
+            }
+            #sq6{
+                position: absolute;
+            width: 100px;
+            height: 93px;
+            left: 1252px;
+            top: 619px;
+            margin-top: 463%;
+            }
 
         .card2-1{
             height: 400px;
@@ -1195,108 +1298,7 @@ background-size: cover;
                 left: 960px;
                 top: 684px;
             }
-            #sp1
-            {
-                position: absolute;
-                width: 150px;
-                height: 150px;
-                left: 48px;
-                top: 302px;
-                margin-top: 460%;
-            }
-            #sp2
-            {
-                position: absolute;
-            width: 187px;
-            height: 193px;
-            left: 254px;
-            top: 277px;
-            margin-top: 460%;
-            }
-            #sp3
-            {
-                position: absolute;
-            width: 150px;
-            height: 150px;
-            left: 496px;
-            top: 302px;
-            margin-top: 460%;
-            }
-            #sp4
-            {
-                position: absolute;
-            width: 200px;
-            height: 200px;
-            left: 686px;
-            top: 277px;
-            margin-top: 460%;
-            }
-            #sp5
-            {
-                position: absolute;
-            width: 200px;
-            height: 200px;
-            left: 926px;
-            top: 270px;
-            margin-top: 460%;
-            }
-            #sp6
-            {
-                position: absolute;
-            width: 200px;
-            height: 200px;
-            left: 1166px;
-            top: 260px;
-            margin-top: 460%;
-            }
-            #sq1{
-                position: absolute;
-            width: 150px;
-            height: 150px;
-            left: 85px;
-            top: 591px;
-            margin-top: 463%;
-            }
-            #sq2{
-                position: absolute;
-                width: 200px;
-                height: 200px;
-                left: 283px;
-                top: 571px;
-                margin-top: 463%;
-            }
-            #sq3{
-                position: absolute;
-            width: 200px;
-            height: 200px;
-            left: 545px;
-            top: 571px;
-            margin-top: 463%;
-            }
-            #sq4{
-                position: absolute;
-            width: 130px;
-            height: 140px;
-            left: 808px;
-            top: 601px;
-            margin-top: 463%;
-            }
-            #sq5{
-                position: absolute;
-                width: 200px;
-            height: 200px;
-            top: 576px;
-            left: 996px;
-            margin-top: 463%;
-            }
-            #sq6{
-                position: absolute;
-            width: 100px;
-            height: 93px;
-            left: 1252px;
-            top: 619px;
-            margin-top: 463%;
-            }
+            
         .row{
             display: flex;
             flex-direction: row;
