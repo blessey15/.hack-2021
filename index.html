@@ -5,11 +5,17 @@
     <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <a href="https://icons8.com/icon/t2XTQnjREMUk/loading-bar"></a>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://kit.fontawesome.com/41d2951665.js" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
     <title>.hack(); 21</title>
 </head>
@@ -55,22 +61,7 @@
           </div>
         </div>
         
-        <div class="nav-down">
-          <a href="./#about">
-            <svg xmlns="http://www.w3.org/2000/svg" id="svg-down" xmlns:xlink="http://www.w3.org/1999/xlink" width="150pt" height="149.999998pt" viewBox="0 0 150 149.999998" version="1.2">
-              <defs>
-              <clipPath id="clip1">
-                <path d="M 12.953125 10.058594 L 142.703125 10.058594 L 142.703125 139.808594 L 12.953125 139.808594 Z M 12.953125 10.058594 "/>
-              </clipPath>
-              </defs>
-              <g id="surface1">
-              <g clip-path="url(#clip1)" clip-rule="nonzero">
-              <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 77.828125 10.058594 C 42.003906 10.058594 12.953125 39.105469 12.953125 74.933594 C 12.953125 110.757812 42.003906 139.808594 77.828125 139.808594 C 113.65625 139.808594 142.703125 110.757812 142.703125 74.933594 C 142.703125 39.105469 113.65625 10.058594 77.828125 10.058594 Z M 77.828125 100.9375 L 34.410156 57.527344 L 40.144531 51.796875 L 77.828125 89.472656 L 115.503906 51.796875 L 121.238281 57.527344 Z M 77.828125 100.9375 "/>
-              </g>
-              </g>
-              </svg>
-          </a>
-        </div>
+        
       </div>
 
       <div class="about" id='about'>
@@ -224,35 +215,24 @@
           </div>
       </div>
       <br>
-      <div class="sponsors" id ='sponsors'>
-         <h1 id="spo">Thanks to Our Sponsors</h1> 
-         <div class="row-cnt">
-          <a href="https://hac.ieee.org" target="_blank">
-          <img src="./Images/hac-white.png" alt="IEEE" id="s1" >
-          </a>
-          <a href="https://www.computer.org" target="_blank">
-          <img src="./Images/ieeecs-white.png" alt="IEEE" id="s2">
-          </a>
-          <a href="https://www.wolfram.com" target="_blank">
-          <img src="./Images/wolfram_big.png" alt="IEEE" id="s3">
-          </a>
-          <a href="https://www.agappe.com/in/" target="_blank">
-          <img src="./Images/agappe white.png" alt="IEEE" id="s4">
-          </a>
-          <a href="https://www.digitalocean.com" target="_blank">
-          <img src="./Images/dig ocean.png" alt="IEEE" id="s5">
-          </a>
-          <a href="https://www.sketch.com" target="_blank">
-          <img src="./Images/sketch.png" alt="IEEE" id="s6">
-          </a>
-          <a href="https://studentambassadors.microsoft.com/en-us" target="_blank">
-          <img src="./Images/microsoft.png" alt="IEEE" id="s7">
-          </a>
-          <a href="https://rotary3201.com/20-21/_home/club_list/club_profile/index.php?selected_club_id=22602" target="_blank">
-          <img src="./Images/rot.png" alt="IEEE" id="s8">
-          </a>
-         </div>
-      </div>
+        <div class="spo-container">
+          <h1 id="spo">Sponsors</h1>
+          <br><br>
+          <div class="slider">
+          <section class="slider-track">
+            <div class="slide"><img src="./Images/hac-white.png"></div>
+            <div class="slide"><img src="./Images/ieeecs-white.png"></div>
+            <div class="slide"><img src="./Images/wolfram_big.png"></div>
+            <div class="slide"><img src="./Images/agappe white.png"></div>
+            <div class="slide"><img src="./Images/dig ocean.png"></div>
+            <div class="slide"><img src="./Images/sketch.png"></div>
+            <div class="slide"><img src="./Images/microsoft.png"></div>
+            <div class="slide"><img src="./Images/rot.png"></div>
+          </section>
+        </div>>
+
+        
+      
       <div class="sponsors-20">
         <h1 id="spo20">THANKS TO OUR 2020 SPONSORS!</h1>
         <div class="spo-r1">
@@ -378,15 +358,15 @@
           
           
         </div>	
-        <hr>
+        
           <div class="mail-sm"><p>Email us to : sb.mace@ieee.org</p></div>
         <div class="row">
           
-          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+          <div class="cprt">
             <br>
             <p class="h6">© All right Reversed.<a class="text-green ml-2" href="#" target="_blank">>.hack()</a></p>
           </div>
-          <hr>
+          
         </div>	
       </div>
     </section>
