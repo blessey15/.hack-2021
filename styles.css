@@ -269,7 +269,7 @@ html, body {
         #coming1{
             width: 200px;
             height: 40px;
-            left: 2rem;
+            left: 8rem;
             top: 10px;
         }
         #s1{
@@ -350,7 +350,7 @@ html, body {
             width: 100%;
             height: 2024px;
         }
-        .abhead , #w , #th ,#t ,#rewind , #spo ,#coming ,#win-title{
+        .abhead , #w , #th ,#t ,#rewind , #spo , #spo-21 ,#coming ,#win-title{
             font-weight: bolder;
             font-size: 30px;
             line-height: 58px;
@@ -531,6 +531,9 @@ html, body {
         .mail-sm{
             margin-left: 72%;
         }
+        .console-container{
+            margin-top: 76%;
+        }
         .sponsors-20{
             height: 600px;
         }
@@ -579,15 +582,15 @@ html, body {
             height: 400px;
         }
         #card1 {
-            top: 40%;
+            top: 43.5%;
             margin-left: 40%;
         }
         #card2{
-            top: 45.31%;
+            top: 49%;
             margin-left: 40%;
         }
         #card3{
-            top: 50.6%;
+            top: 54.6%;
             margin-left: 40%;
         }
         .win-cont{
@@ -763,9 +766,9 @@ html, body {
         }
         
         .li-cont{ 
-            margin-left: 10%;
+            margin-left: 5%;
         }
-        .abhead , #w ,#th ,#t,#rewind , #spo ,#coming ,#win-title{
+        .abhead , #w ,#th ,#t,#rewind , #spo , #spo-21, #coming ,#win-title{
             font-weight: bolder;
             font-size: 40px;
             line-height: 70px;
@@ -947,15 +950,15 @@ html, body {
             flex-direction: row;
         }
         #card1 {
-            top: 47%;
+            top: 46.4%;
             margin-left: 20%;
         }
         #card2{
-            top:47%;
+            top:46.4%;
             margin-left: 50%;
         }
         #card3{
-            top: 47%;
+            top: 46.4%;
             margin-left: 80%;
         }
         .win-cont{
@@ -1056,7 +1059,7 @@ html, body {
             margin-left: 20%;
         }
        
-        .abhead ,#w ,#th, #t ,#rewind , #spo ,#coming ,#win-title{
+        .abhead ,#w ,#th, #t ,#rewind , #spo,#spo-21 ,#coming ,#win-title{
             font-weight: bolder;
             font-size: 60px;
             line-height: 80px;
@@ -1456,10 +1459,10 @@ background-size: cover;
             margin-left: 40%;
         }
         
-        .abhead , #w , #th ,#t ,#rewind , #spo , #win-title {
+        .abhead , #w , #th ,#t ,#rewind , #spo ,#spo-21, #win-title {
             font-weight: bold;
-            font-size: 70px;
-            line-height: 110px;
+            font-size: 60px;
+            line-height: 90px;
             color: #FFFFFF;
             margin-left: 20%;
             margin-top: 4%;
@@ -1682,9 +1685,8 @@ color: #FFFFFF;
     
     color: #FFFFFF;
     }
-    section{
-        background: rgb(50,224,117);
-background: linear-gradient(0deg, rgba(50,224,117,1) 0%, rgba(27,179,95,1) 0%, rgba(34,159,90,1) 7%, rgba(0,0,0,1) 100%);
+    #footer{
+        background: linear-gradient(0deg, rgba(50,224,117,1) 0%, rgba(27,179,95,1) 0%, rgba(34,159,90,1) 7%, rgba(0,0,0,1) 100%);
     }
     h5{
         margin-top: 2rem;
@@ -1859,13 +1861,16 @@ background: linear-gradient(0deg, rgba(50,224,117,1) 0%, rgba(27,179,95,1) 0%, r
     margin-bottom: 10%;
     box-shadow: 0 10px 20px -5px rgba(0,0,0,0.5);
 }
+.slider section{
+    background-color: rgba(0, 0, 0, 1);
+}
 
 .slider::before,.slider::after{
     content:'';
     position : absolute;
     width: 200px;
     height: 300px;
-    background: linear-gradient(to right, white 0% , rgba(128, 5, 5, 0)100%);
+    background: linear-gradient(to right, grey 0% , rgba(128, 5, 5, 0)100%);
     z-index: 2;
 }
 .slider::before{
@@ -1922,4 +1927,6 @@ justify-content: center;
 .mail-sm{
     color: white;
 }
-
+#spo{
+    color: rgb(10.5896%,70.199585%,37.249756%);
+}
