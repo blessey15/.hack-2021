@@ -30,7 +30,7 @@ $(".btn-close").click(function(e){
   })(jQuery)
 
   typing_effect(['24 hours of Coding', 'Endless space for innovation', 'See you soon!'],
-            ['#FFFFFF', '#FFFFFF', '#FFFFFF']);
+            ['black', '#FFFFFF', '#FFFFFF']);
 
       function typing_effect(words, colors) {
 

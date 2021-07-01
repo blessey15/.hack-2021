@@ -262,7 +262,6 @@ html, body {
             font-size: 23px;
             margin-left: 1rem;
         }
-        
        #tp1 ,  #tp3 ,#tp2{
            margin-left: 1rem;
        }
@@ -1853,10 +1852,6 @@ color: #FFFFFF;
     text-align: center;
     padding: 0.2%;
 }
-<<<<<<< HEAD
-.mail-sm{
-    color: white;
-=======
 .slider{
     width: 90%;
     height: 300px;
@@ -1881,7 +1876,6 @@ color: #FFFFFF;
 .slider::before{
     top: 0;
     left: 0;
->>>>>>> b3fff1d58877c068ad513152bf08a59dd430edc0
 }
 .slider::after{
     top: 0;
@@ -1930,14 +1924,9 @@ justify-content: center;
  text-align: center;
 }
 
-<<<<<<< HEAD
-
-
-=======
 .mail-sm{
     color: white;
 }
 #spo{
     color: rgb(10.5896%,70.199585%,37.249756%);
 }
->>>>>>> b3fff1d58877c068ad513152bf08a59dd430edc0
