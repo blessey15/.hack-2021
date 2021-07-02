@@ -212,3 +212,28 @@ footer{
     width: 100px;
     height: 100px;
 }
+/*typing animation*/
+.console-container {
+    position:absolute;
+    font-family:'Courier New', Courier, monospace;
+    font-style:normal;
+   font-weight: bold;
+   font-size: 35px;
+   top:130%;
+   left: 50%;
+   justify-content: center;
+    transform: translate(-50%, -50%);
+   }
+   #text{
+       background-color:rgb(53, 51, 47); opacity:75%;
+   }
+   .console-underscore {
+    display:inline;
+    position: relative;
+    color: white;
+   }
+   
+   .logo-container {
+    position: relative;
+    text-align: center;
+   }
