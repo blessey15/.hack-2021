@@ -215,9 +215,9 @@ footer{
 /*typing animation*/
 .console-container {
     position:absolute;
-    font-family: Ropa Sans;
+    font-family:'Courier New', Courier, monospace;
     font-style:normal;
-   font-weight:500;
+   font-weight: bold;
    font-size: 35px;
    top:130%;
    left: 50%;
@@ -225,7 +225,7 @@ footer{
     transform: translate(-50%, -50%);
    }
    #text{
-       background-color: lightslategray; opacity:75%;
+       background-color:rgb(53, 51, 47); opacity:75%;
    }
    .console-underscore {
     display:inline;
