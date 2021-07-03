@@ -4,6 +4,12 @@
     margin: 0px;
 }
 @media only screen and (max-width: 600px){
+    .social-text-center{
+        float: center;
+    }
+    .mail-sm p{
+        text-align: center;
+    }
     .winners .container .row{
         display: flex;
         flex-direction: column;
@@ -25,6 +31,12 @@
     }
 }
 @media only screen and (min-width: 600px) {
+    .social-text-center{
+        float: right;
+    }
+    .mail-sm p{
+        text-align: right;
+    }
     .winners .container {
         margin-top: 240px;
     }
@@ -112,7 +124,7 @@ nav{
     width: 250px;
     height: 250px;
 }
-
+/* winners */
 
 .card  {
     position: absolute;
@@ -253,7 +265,9 @@ nav{
 .come{
     background-color: rgb(0, 0, 0);
 }
+
 /* footer */
+
 footer{
     background: linear-gradient(0deg, rgba(50,224,117,1) 0%, rgba(27,179,95,1) 0%, rgba(34,159,90,1) 7%, rgba(0,0,0,1) 100%);
 }
@@ -267,7 +281,6 @@ footer{
     width: 30%;
     display: flex;
     flex-direction: row;
-    float: right;
     justify-content: space-between;
     margin-bottom: 10%;
 }
@@ -276,6 +289,12 @@ footer{
 }
 .social-text-center li{
     list-style-type: none;
+}
+.mail-sm p {
+    color : white;
+}
+.cprt p{
+    text-align: center;
 }
 
 /* preloader */
