@@ -20,7 +20,7 @@
         flex-direction: column;
     }
     .slider{
-        width: 50%;
+        width: 65%;
         height: 200px;
     }
     .slider .slide img{
