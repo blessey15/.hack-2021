@@ -3,6 +3,62 @@
     padding: 0px;
     margin: 0px;
 }
+@media only screen and (max-width: 600px){
+    .winners .container .row{
+        display: flex;
+        flex-direction: column;
+        margin-top: 250px;
+        margin-left: 40%;
+    }
+    .logo-container img{
+        margin-top: 14%;
+        width: 600px;
+    }
+    .logo-container img{
+        margin-top: 30%;
+        width: 400px;
+    }
+
+    .main-heading h1{
+        font-weight: bolder;
+        font-size: 30px;
+        line-height: 58px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .winners .container {
+        margin-top: 240px;
+    }
+    .winners .container .row{
+        margin-left: 30%;
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-container img{
+        margin-top: 14%;
+        width: 600px;
+    }
+    
+    .main-heading h1{
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 90px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 4%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .winners .container {
+        margin-top: 340px;
+    }
+    .winners .container .row{
+        margin-top: 300px;
+        margin-left: 12.8%;
+    }
+}
 html, body {
     overflow-x:hidden;
     background-color: black;
@@ -20,11 +76,6 @@ body{
     padding: 10px;
     width: 160px;
     height: 48px;
-}
-
-.logo-container img{
-    margin-top: 14%;
-    width: 600px;
 }
 nav{
     background-color:rgb(0, 0, 0);
@@ -65,33 +116,7 @@ nav{
     height: 250px;
 }
 
-@media only screen and (max-width: 600px){
 
-    .main-heading h1{
-        font-weight: bolder;
-        font-size: 30px;
-        line-height: 58px;
-        color: #FFFFFF;
-    }
-}
-@media only screen and (min-width: 600px) {
-    
-    .main-heading h1{
-        font-weight: bold;
-        font-size: 60px;
-        line-height: 90px;
-        color: #FFFFFF;
-        text-align: center;
-        margin-top: 4%;
-    }
-}
-.winners .container {
-    margin-top: 340px;
-}
-.winners .container .row{
-    margin-top: 300px;
-    margin-left: 12.8%;
-}
 .card  {
     position: absolute;
     transform: translate(-50%,-50%);
@@ -165,6 +190,61 @@ nav{
     width: 70%;
     height: 70%;
 }
+/* sponsors 2021 */
+.sponsors1{
+    margin-top: 10%;
+}
+.sponsors1 .row{
+    margin-top: 10%;
+}
+.slider{
+    width: 90%;
+    height: 300px;
+    overflow :hidden;
+    position: relative;
+    margin: auto;
+    margin-bottom: 10%;
+    box-shadow: 0 10px 20px -5px rgba(0,0,0,0.5);
+}
+
+.slider::before,.slider::after{
+    content:'';
+    position : absolute;
+    width: 200px;
+    height: 300px;
+    z-index: 2;
+}
+.slider::before{
+    top: 0;
+    left: 0;
+}
+.slider::after{
+    top: 0;
+    right: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider .slider-track{
+    display: flex;
+    width: calc(250px * 14);
+    animation: scroll 40s infinite linear;
+}
+.slider section{
+    background-color: rgba(0, 0, 0 ,0);
+}
+.slider .slide img{
+    width: 300px;
+    height: 300px;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(calc(-250px * 7));
+    }
+}
+/* sponsors 2020 */
 .sponsors2{
     margin-top: 10%;
 }
@@ -172,9 +252,11 @@ nav{
     background-color: rgba(0, 0, 0, 0.8);
     margin-top: 10%;
 }
+
 .come{
     background-color: rgb(0, 0, 0);
 }
+/* footer */
 footer{
     background: linear-gradient(0deg, rgba(50,224,117,1) 0%, rgba(27,179,95,1) 0%, rgba(34,159,90,1) 7%, rgba(0,0,0,1) 100%);
 }
@@ -198,6 +280,8 @@ footer{
 .social-text-center li{
     list-style-type: none;
 }
+
+/* preloader */
 #preloader {
     background-color: black;
     position: fixed;
