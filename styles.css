@@ -1930,3 +1930,20 @@ justify-content: center;
 #spo{
     color: rgb(10.5896%,70.199585%,37.249756%);
 }
+.themes .container .row1 , .themes .container .row0{
+    margin: 2.5%;
+}
+.themes .container {
+    display: flex;
+    flex-direction: row;
+}
+.themes .container .row0 , .themes .container .row1{
+    display: flex;
+    flex-direction: column;
+}
+.themes .container .row0 .col1 , .themes .container .row1 .col1{
+    padding: 0px;
+    margin-right: 2rem;
+}
+
+/* 992*/

@@ -1,11 +1,3 @@
-function dropdown() {
-  const d = document.getElementById("dropdown");
-  if (d.style.display == "block") {
-    d.style.display = "none";
-  } else {
-    d.style.display = "block";
-  }
-}
 
 $("[data-trigger]").on("click", function () {
   var trigger_id = $(this).attr("data-trigger");
@@ -28,11 +20,9 @@ $(".btn-close").click(function (e) {
   });
 })(jQuery);
 
-typing_effect(
-  ["24 hours of Coding", "Endless space for innovation", "See you soon!"],
-  ["black", "black", "black"]
-);
 
+  typing_effect(['24 hours of Coding', 'Endless space for innovation', 'See you soon!'],
+            ['white', 'white', 'white']);
 function typing_effect(words, colors) {
   var cursor = document.getElementById("cursor"); //cursor
   var text = document.getElementById("text"); //text
