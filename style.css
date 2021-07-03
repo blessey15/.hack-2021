@@ -9,14 +9,11 @@
         flex-direction: column;
         margin-top: 250px;
         margin-left: 40%;
-    }
-    .logo-container img{
-        margin-top: 14%;
-        width: 600px;
+        height: 320px;
     }
     .logo-container img{
         margin-top: 30%;
-        width: 400px;
+        width: 350px;
     }
 
     .main-heading h1{
