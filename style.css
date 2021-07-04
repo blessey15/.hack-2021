@@ -8,6 +8,9 @@ h3{
   text-align: center;
 }
 @media only screen and (max-width: 600px){
+  .aftermovie .container {
+    margin-left: 12%;
+  }
     .main-heading h1{
         font-weight: bold;
         font-size: 30px;
@@ -35,9 +38,7 @@ h3{
         width: 95%;
         float: center;
     }
-    .mail-sm p{
-        text-align: center;
-    }
+    
     .winners .container .row{
         display: flex;
         flex-direction: column;
@@ -49,6 +50,10 @@ h3{
     }
 }
 @media only screen and (min-width: 600px) {
+  .aftermovie .container {
+    margin-top: 10%;
+    margin-left: 14%;
+  }
     .themes .container .row1 , .themes .container .row0{
         margin: 2.5%;
     }
@@ -77,16 +82,14 @@ h3{
         width: 45%;
         float: right;
     }
-    .mail-sm p{
-        text-align: right;
-    }
+  
     .winners .container .row{
         display: flex;
         flex-direction: row;
     }
     .logo-container img{
         margin-top: 14%;
-        width: 600px;
+        width: 500px;
     }
     
     .main-heading h1{
@@ -99,6 +102,17 @@ h3{
     }
 }
 @media only screen and (min-width: 992px) {
+  .mail-sm{
+    text-align: left;
+  }
+  .logo-container img{
+    margin-top: 14%;
+    width: 600px;
+}
+  
+  .aftermovie .container {
+    margin-left: 14%;
+  }
     .themes .container .row1 , .themes .container .row0{
         margin: 5%;
     }
@@ -111,8 +125,8 @@ h3{
         flex-direction: row;
     }
     .social-text-center{
+      float: right;
         width: 30%;
-        float: right;
     }
 }
 html, body {
@@ -146,7 +160,7 @@ nav {
   background-size: cover;
 }
 .about .container .row .col {
-  justify-content: center;
+  justify-content: left;
   text-align: center;
   background-color: rgba(27, 179, 95, 0.75);
   width: 300px;
@@ -241,7 +255,6 @@ nav {
 }
 .aftermovie .container {
   margin-top: 10%;
-  margin-left: 15%;
 }
 .aftermovie .container iframe {
   position: absolute;
@@ -325,29 +338,34 @@ footer {
     rgba(0, 0, 0, 1) 100%
   );
 }
-.list-quick-links li a {
-  color: white;
-}
-.list-quick-links li {
-  list-style-type: none;
-}
+
 .social-text-center {
-  width: 30%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 10%;
 }
-.social-text-center li a {
+
+.footer-text{
+  margin-top: 60%;
+}
+.footer-text img{
+  padding: 3%;
+  width: 200px;
+}
+hr{
+  border-top: 5px solid black;
+}
+
+.social-text-center li a, .footer-text p {
   color: white;
 }
 .social-text-center li {
   list-style-type: none;
 }
-.mail-sm p {
-  color: white;
-}
+
 .cprt p {
+  color: white;
   text-align: center;
 }
 
