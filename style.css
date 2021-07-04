@@ -102,13 +102,14 @@ h3{
     }
 }
 @media only screen and (min-width: 992px) {
+  .mail-sm{
+    text-align: left;
+  }
   .logo-container img{
     margin-top: 14%;
     width: 600px;
 }
-  hr{
-    border-top: 5px solid black;
-  }
+  
   .aftermovie .container {
     margin-left: 14%;
   }
@@ -352,6 +353,10 @@ footer {
   padding: 3%;
   width: 200px;
 }
+hr{
+  border-top: 5px solid black;
+}
+
 .social-text-center li a, .footer-text p {
   color: white;
 }
