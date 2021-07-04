@@ -86,11 +86,11 @@ var observer = new IntersectionObserver(
     if (entries[0].isIntersecting === true) {
       console.log("Element has just become visible in screen");
       // counter values
-      const counter = [100, 250, 100, 400];
+      const counter = [368, 114, 36, 42];
       const currentCounter = [0, 0, 0, 0];
       
       // max value in counter array
-      const maxCounter = 400;
+      const maxCounter = 368;
       
       const timer = setInterval(() => {
         if (currentCounter[0] <= counter[0]) {
@@ -124,3 +124,18 @@ var observer = new IntersectionObserver(
 );
 
 observer.observe(document.querySelector("#overview"));
+
+document.addEventListener("DOMContentLoaded", function(){
+  window.addEventListener('scroll', function() {
+      if (window.scrollY > 50) {
+        document.getElementById('navbar_top').classList.add('fixed-top');
+        // add padding top to show content behind navbar
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+        document.getElementById('navbar_top').classList.remove('fixed-top');
+         // remove padding top from body
+        document.body.style.paddingTop = '0';
+      } 
+  });
+}); 
