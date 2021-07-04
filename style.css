@@ -3,6 +3,10 @@
     padding: 0px;
     margin: 0px;
 }
+h3{
+  color: #FFFFFF;
+  text-align: center;
+}
 @media only screen and (max-width: 600px){
     .main-heading h1{
         font-weight: bold;
@@ -401,4 +405,10 @@ footer {
   font-weight: 500;
   color: #fff;
   font-size: 45px;
+}
+
+
+.navbar-dark .navbar-toggler {
+  color: #0000008c;
+  border-color: rgba(255,255,255,.1);
 }
