@@ -443,3 +443,5 @@ hr{
   transition: all .1s
 }
 
+.img-fluid:hover {opacity: 1}
+
