@@ -120,6 +120,9 @@ h3 {
     }
 }
 @media only screen and (min-width: 992px) {
+  .winners .container .row{
+    margin-top: 6%;
+  }
     .sponsors2 .img-fluid {
         margin-left: 15%;
     }
@@ -143,11 +146,11 @@ h3 {
     }
 
     .aftermovie .container {
-        margin-left: 14%;
+        margin-left: 18%;
     }
     .themes .container .row1,
     .themes .container .row0 {
-        margin: 5%;
+        margin: 1%;
     }
     .themes .container {
         display: flex;
@@ -226,8 +229,8 @@ nav {
 }
 .themes .container .row0 .col1 img,
 .themes .container .row1 .col1 img {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
 }
 /* winners */
 
@@ -289,32 +292,32 @@ nav {
     color: #fff;
 }
 .aftermovie {
-    margin-top: 20%;
+    margin-top: 7%;
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%;
+    padding-bottom: 50.25%;
     height: 0;
 }
 .aftermovie .container {
-    margin-top: 10%;
+    margin-top: 6%;
 }
 .aftermovie .container iframe {
     position: absolute;
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 65%;
 }
 /* sponsors 2021 */
 .sponsors1 {
-    margin-top: 10%;
+    margin-top: 7%;
 }
 .sponsors1 .row {
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .slider {
     overflow: hidden;
     position: relative;
     margin: auto;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
 }
 
@@ -363,7 +366,7 @@ nav {
     height: 8.5rem;
 }
 .sponsors2 {
-    margin-top: 0%;
+    margin-top: 1%;
 }
 .sponsors2 .container {
     background-color: rgba(0, 0, 0, 0.8);
@@ -462,9 +465,7 @@ hr {
     width: 50px;
     height: 50px;
 }
-.overview {
-    margin-top: 10%;
-}
+
 .overview-counter {
     position: relative;
 }
