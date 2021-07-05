@@ -120,9 +120,9 @@ h3 {
     }
 }
 @media only screen and (min-width: 992px) {
-  .winners .container .row{
-    margin-top: 6%;
-  }
+    .winners .container .row {
+        margin-top: 6%;
+    }
     .sponsors2 .img-fluid {
         margin-left: 15%;
     }
@@ -181,8 +181,7 @@ body {
     width: 100%;
 }
 .navbar-brand img {
-    padding: 10px;
-    width: 170px;
+    width: 160px;
     /* height: 48px;*/
 }
 nav {
@@ -481,5 +480,6 @@ hr {
     font-size: 45px;
 }
 
-.img-fluid:hover {opacity: 1}
-
+.img-fluid:hover {
+    opacity: 1;
+}
