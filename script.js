@@ -86,11 +86,11 @@ var observer = new IntersectionObserver(
     if (entries[0].isIntersecting === true) {
       console.log("Element has just become visible in screen");
       // counter values
-      const counter = [368, 114, 36, 42];
+      const counter = [369, 114, 36, 42];
       const currentCounter = [0, 0, 0, 0];
       
       // max value in counter array
-      const maxCounter = 368;
+      const maxCounter = 369;
       
       const timer = setInterval(() => {
         if (currentCounter[0] <= counter[0]) {
