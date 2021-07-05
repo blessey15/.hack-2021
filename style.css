@@ -363,17 +363,18 @@ nav {
     margin-bottom: -1rem;
     opacity: 0.8;
     transition: all 0.1s;
+    height: 8.5rem;
 }
 .sponsors2 {
     margin-top: 1%;
 }
 .sponsors2 .container {
     background-color: rgba(0, 0, 0, 0.8);
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 .sponsors2 .container .row {
-    padding-top: 10%;
+    padding: 0%;
 }
 
 .come {
@@ -479,3 +480,6 @@ hr {
     color: #fff;
     font-size: 45px;
 }
+
+.img-fluid:hover {opacity: 1}
+
