@@ -8,10 +8,10 @@ h3 {
     text-align: center;
 }
 @media only screen and (max-width: 600px) {
-    .sponsors2 .img-fluid {
+    #sponsors2 .img-fluid {
         margin-left: 25%;
     }
-    .aftermovie .container {
+    #aftermovie .container {
         margin-left: 12%;
     }
     .main-heading h1 {
@@ -22,12 +22,12 @@ h3 {
         text-align: center;
         margin-top: 4%;
     }
-    .themes .container .row1,
-    .themes .container .row0 {
+    #themes .container .row1,
+    #themes .container .row0 {
         margin-left: 10%;
     }
-    .themes .container .row0,
-    .themes .container .row1 {
+    #themes .container .row0,
+    #themes .container .row1 {
         display: flex;
         flex-direction: column;
     }
@@ -44,7 +44,7 @@ h3 {
         float: center;
     }
 
-    .winners .container .row {
+    #winners .container .row {
         display: flex;
         flex-direction: column;
     }
@@ -55,7 +55,7 @@ h3 {
     }
 }
 @media only screen and (min-width: 600px) {
-    .sponsors2 .img-fluid {
+    #sponsors2 .img-fluid {
         margin-left: 25%;
     }
     .loading {
@@ -65,25 +65,25 @@ h3 {
     .loading img {
         width: 500px;
     }
-    .aftermovie .container {
+    #aftermovie .container {
         margin-top: 10%;
         margin-left: 14%;
     }
-    .themes .container .row1,
-    .themes .container .row0 {
+    #themes .container .row1,
+    #themes .container .row0 {
         margin: 2.5%;
     }
-    .themes .container {
+    #themes .container {
         display: flex;
         flex-direction: row;
     }
-    .themes .container .row0,
-    .themes .container .row1 {
+    #themes .container .row0,
+    #themes .container .row1 {
         display: flex;
         flex-direction: column;
     }
-    .themes .container .row0 .col1,
-    .themes .container .row1 .col1 {
+    #themes .container .row0 .col1,
+    #themes .container .row1 .col1 {
         padding: 0px;
         margin-right: 2rem;
     }
@@ -101,7 +101,7 @@ h3 {
         float: right;
     }
 
-    .winners .container .row {
+    #winners .container .row {
         display: flex;
         flex-direction: row;
     }
@@ -120,10 +120,10 @@ h3 {
     }
 }
 @media only screen and (min-width: 992px) {
-    .winners .container .row {
+    #winners .container .row {
         margin-top: 6%;
     }
-    .sponsors2 .img-fluid {
+    #sponsors2 .img-fluid {
         margin-left: 15%;
     }
     .loading {
@@ -145,19 +145,19 @@ h3 {
         width: 600px;
     }
 
-    .aftermovie .container {
+    #aftermovie .container {
         margin-left: 18%;
     }
-    .themes .container .row1,
-    .themes .container .row0 {
+    #themes .container .row1,
+    #themes .container .row0 {
         margin: 1%;
     }
-    .themes .container {
+    #themes .container {
         display: flex;
         flex-direction: column;
     }
-    .themes .container .row1,
-    .themes .container .row0 {
+    #themes .container .row1,
+    #themes .container .row0 {
         display: flex;
         flex-direction: row;
     }
@@ -184,6 +184,7 @@ body {
     width: 160px;
     /* height: 48px;*/
 }
+
 nav {
     background-color: rgb(0, 0, 0);
     position: fixed;
@@ -202,7 +203,7 @@ nav {
     max-width: 100%;
     background-size: cover;
 }
-.about .container .row .col {
+#about .container .row .col {
     justify-content: left;
     text-align: center;
     background-color: rgba(27, 179, 95, 0.75);
@@ -211,23 +212,23 @@ nav {
     box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
     transition: all 0.3s ease-out;
 }
-.about .container .row .col:hover {
+#about .container .row .col:hover {
     transform: translateY(-5px) scale(1.005) translateZ(0);
     box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11), 0 24px 46px var(--box-shadow-color);
 }
-.about .container .row .col:hover .overlay {
+#about .container .row .col:hover .overlay {
     transform: scale(4) translateZ(0);
 }
-.about .container .row .col h2,
-.about .container .row .col p {
+#about .container .row .col h2,
+#about .container .row .col p {
     color: white;
 }
-.themes .container .row0 .col1,
-.themes .container .row1 .col1 {
+#themes .container .row0 .col1,
+#themes .container .row1 .col1 {
     margin: 3%;
 }
-.themes .container .row0 .col1 img,
-.themes .container .row1 .col1 img {
+#themes .container .row0 .col1 img,
+#themes .container .row1 .col1 img {
     width: 240px;
     height: 240px;
 }
@@ -290,26 +291,26 @@ nav {
     margin: 20px 0 0;
     color: #fff;
 }
-.aftermovie {
+#aftermovie {
     margin-top: 7%;
     position: relative;
     width: 100%;
     padding-bottom: 50.25%;
     height: 0;
 }
-.aftermovie .container {
+#aftermovie .container {
     margin-top: 6%;
 }
-.aftermovie .container iframe {
+#aftermovie .container iframe {
     position: absolute;
     width: 60%;
     height: 65%;
 }
 /* sponsors 2021 */
-.sponsors1 {
+#sponsors1 {
     margin-top: 7%;
 }
-.sponsors1 .row {
+#sponsors1 .row {
     margin-top: 8%;
 }
 .slider {
@@ -357,22 +358,22 @@ nav {
 }
 /* sponsors 2020 */
 
-.sponsors2 .img-fluid {
+#sponsors2 .img-fluid {
     width: 12rem;
     margin-bottom: -1rem;
     opacity: 0.8;
     transition: all 0.1s;
     height: 8.5rem;
 }
-.sponsors2 {
+#sponsors2 {
     margin-top: 1%;
 }
-.sponsors2 .container {
+#sponsors2 .container {
     background-color: rgba(0, 0, 0, 0.8);
     margin-top: 2%;
     margin-bottom: 5%;
 }
-.sponsors2 .container .row {
+#sponsors2 .container .row {
     padding: 0%;
 }
 
