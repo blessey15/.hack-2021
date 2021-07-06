@@ -512,3 +512,13 @@ hr {
 .about-card p{
     color: #ffffff;
 }
+
+.img-png{
+    height: 10rem;
+    width: auto;
+    margin-bottom: -1rem;
+    margin-right: 1rem;
+    margin-left: auto;
+    opacity: .8;
+    transition: all .1s;
+}
