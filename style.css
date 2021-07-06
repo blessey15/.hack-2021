@@ -55,6 +55,10 @@ h3 {
     }
 }
 @media only screen and (min-width: 600px) {
+    .footer-text {
+        width: 160%;
+        margin-left: 96.8%;
+    }
     #sponsors2 .img-fluid {
         margin-left: 25%;
     }
@@ -120,6 +124,10 @@ h3 {
     }
 }
 @media only screen and (min-width: 992px) {
+    .footer-text {
+        width: 110%;
+        margin-left: 96.8%;
+    }
     #winners .container .row {
         margin-top: 6%;
     }
@@ -173,7 +181,6 @@ body {
 }
 body {
     background-image: url('./Images/bg.png');
-    background-color: black;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -412,13 +419,16 @@ hr {
 
 .social-text-center li a,
 .footer-text p {
+    text-align: center;
     color: white;
 }
 .social-text-center li {
     list-style-type: none;
 }
-
-.cprt p {
+.cprt p a{
+    color: white;
+}
+.cprt p  {
     color: white;
     text-align: center;
 }
