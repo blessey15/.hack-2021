@@ -14,36 +14,39 @@
 <link rel="stylesheet" href="style.css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar_top">
     <div class="container-fluid">
-      <div class="logobox">
+      <div class="logobox" style="width: fit-content;">
       <a class="navbar-brand" href="#"><img src="./Images/logo-techie.png" alt="logo" class="navimg" /></a>
     </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" style="width: fit-content;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="justify-content: flex-end;">
+          <li class="nav-item" style="width: fit-content;">
+            <a class="nav-link active" style="width: fit-content;" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="./#about">About</a>
+          <li class="nav-item" style="width: fit-content;">
+            <a class="nav-link active" style="width: fit-content;" href="./#about">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="./#winners">Winners</a>
+          <li class="nav-item" style="width: fit-content;">
+            <a class="nav-link active" style="width: fit-content;" href="./#winners">Winners</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="./#aftermovie">Aftermovie</a>
+          <li class="nav-item" style="width: fit-content;">
+            <a class="nav-link active" style="width: fit-content;" href="./#aftermovie">Aftermovie</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="./#sponsors1">Sponsors</a>
+          <li class="nav-item" style="width: fit-content;">
+            <a class="nav-link active" style="width: fit-content;" href="./#sponsors1">Sponsors</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="./#footer">Contact</a>
+          <li class="nav-item" style="width: fit-content;">
+            <a class="nav-link active" style="width: fit-content;" href="./#footer">Contact</a>
           </li>
 </ul>
       </div>
@@ -52,17 +55,17 @@
 
 </header>
 <section class="hero" >
-        <div class="container">
-            <div class="row text-center">
-                    <div class="logo-container">
-                        <img class="logo" src="./Images/Logo Techie (1).png" alt="">
-                        <div class = "console-container">  <!-- Typing animation-->
-                          <span id="text"></span>
-                          <div class='console-underscore' id='cursor'>|</div>
-                        </div>
-                    </div><!-- .entry-header -->
-            </div><!-- row -->
-        </div>
+  <div class="container">
+      <div class="row text-center">
+              <div class="logo-container">
+                  <img class="logo" src="./Images/Logo Techie (1).png" alt="">
+                  <div class = "console-container">  <!-- Typing animation-->
+                    <span id="text"></span>
+                    <div class='console-underscore' id='cursor'>|</div>
+                  </div>
+              </div><!-- .entry-header -->
+      </div><!-- row -->
+  </div>
 </section>
 <section class="anchor" id="about">
   <div data-aos="zoom-in-up">
@@ -72,50 +75,59 @@
   </div>
   <div data-aos="fade-up">
   <div class="container">
+    <br>
     <div class="row">
-      <div class="col">
-        <br>
-        <h2>What makes us awesome</h2>
-        <br>
-              <p>
-                The 24-hour hackathon is no 
-                competition but a diverse 
-                place to collaborate and 
-                make something exceptional. 
-                A platform to learn, practice 
-                and upskill; catering to 
-                today’s rapidly changing 
-                industry scenario.
-              </p>
+      <div class="about-card col-12 col-md-6 col-lg-3">
+        <div>
+          <br>
+          <h2>What makes us awesome</h2>
+          <br>
+          <p>
+            The 24-hour hackathon is no 
+            competition but a diverse 
+            place to collaborate and 
+            make something exceptional. 
+            A platform to learn, practice 
+            and upskill; catering to 
+            today’s rapidly changing 
+            industry scenario.
+          </p>
+        </div>
       </div>
       
-      <div class="col">
-        <br>
-        <h2>All students welcome!</h2>
-        <br>
-              <p>
-              .hack intend to optimize opportunities for students with no barriers in their field of interest in scientific 
-              technology, we strive to look for passionate work and creativity.
-              </p>
+      <div class="about-card col-12 col-md-6 col-lg-3">
+        <div>
+          <br>
+          <h2>All students welcome!</h2>
+          <br>
+          <p>
+            .hack intend to optimize opportunities for students with no barriers in their field of interest in scientific 
+            technology, we strive to look for passionate work and creativity.
+          </p>
+        </div>
       </div>
-      <div class="col">
-        <br>
-        <h2>What makes us unique</h2>
-        <br>
-              <p>
-                Our motive is to thrive beyond the scope and reach new heights, opening new doors for more exciting ideas 
-                and innovations. We believe constant practice, retrospection and update lead to innovations and discovery.
-              </p>
+      <div class="about-card col-12 col-md-6 col-lg-3">
+        <div>
+          <br>
+          <h2>What makes us unique</h2>
+          <br>
+          <p>
+            Our motive is to thrive beyond the scope and reach new heights, opening new doors for more exciting ideas 
+            and innovations. We believe constant practice, retrospection and update lead to innovations and discovery.
+          </p>
+        </div>
       </div>
-      <div class="col">
-        <br>
-        <h2>What's in the box</h2>
-        <br>
-              <p>
-                .hack( ); provides a great opportunity for individuals to be part of a team and manifest their ideas into real 
-                projects. Take your admiration and curiosity to next level and bring it on, here we have space for young curious 
-                minds.
-              </p>
+      <div class="about-card col-12 col-md-6 col-lg-3">
+        <div>
+          <br>
+          <h2>What's in the box</h2>
+          <br>
+          <p>
+            .hack( ); provides a great opportunity for individuals to be part of a team and manifest their ideas into real 
+            projects. Take your admiration and curiosity to next level and bring it on, here we have space for young curious 
+            minds.
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -186,12 +198,12 @@
           <div class="col-lg-4 col-12 d-flex justify-content-center mb-4">
             <div class="card">
               <div class="imgBx">
-                  <img src="./Images/pexels-max-deroin-51415.jpg">
+                  <img src="./Images/iot (2).png">
                   <h1>FL_Bois_The_Second</h1>
               </div>
               <div class="details">
                   <h2>CalARies</h2>
-                  <p>An Augmented Reality based android application which detects the various food items in the plate of the user, and using AR displays all the per serving calories for each item, preferably in their native language as an overlay above the food item</p>
+                  <p>An AR based android application which detects the various food items in the plate, and displays all the per serving calories for each item, preferably in their native language.</p>
                   <br>
                   <a href="https://github.com/siriusBl4ck/CalCheck" target="_blank" ><img class="github" src="./Images/git.png" alt=""></a>
                 </div>
@@ -201,7 +213,7 @@
           <div class="col-lg-4 col-12 d-flex justify-content-center mb-4">
             <div class="card">
               <div class="imgBx">
-                  <img src="./Images/pexels-max-deroin-51415.jpg">
+                  <img src="./Images/iot (1).png">
                   <h1>Pandas</h1>
               </div>
               <div class="details">
@@ -232,31 +244,34 @@
   <br>
   <div data-aos="zoom-in-up">
   <div class="main-heading">
-  <h1>.hack(); 2020 Highlights</h1>
+  <h1>.hack(); 2021 Highlights</h1>
   <br>
   <br>
 </div>
 </div>
 <div class="container">
 <div class="row">
-  <div class="col overview-counter overview-counter-participants">
-    <span>0</span>
-    <img src="./Images/circle1.png" alt="">
+  <div class="col-12 col-sm-6 col-md-3 overview-counter overview-counter-participants">
+    <span style="transform: translate(-50%, -67%);">0</span>
+    <img src="./Images/circle1.png" alt="" style="width: 234px; display: block; margin: 0 auto;">
     <h3>Participants</h3>
   </div>
-  <div class="col overview-counter overview-counter-teams">
-    <span>0</span>
-    <img src="./Images/circle1.png" alt="">
+
+  <div class="col-12 col-sm-6 col-md-3 overview-counter overview-counter-teams">
+    <span style="transform: translate(-50%, -67%);">0</span>
+    <img src="./Images/circle1.png" alt="" style="width: 234px; display: block; margin: 0 auto;">
     <h3>Teams</h3>
   </div>
-  <div class="col overview-counter overview-counter-hours">
-    <span>0</span>
-    <img src="./Images/circle1.png" alt="">
+
+  <div class="col-12 col-sm-6 col-md-3 overview-counter overview-counter-hours">
+    <span style="transform: translate(-50%, -67%);">0</span>
+    <img src="./Images/circle1.png" alt="" style="width: 234px; display: block; margin: 0 auto;">
     <h3>Hours</h3>
   </div>
-  <div class="col overview-counter overview-counter-projects">
-    <span>0</span>
-    <img src="./Images/circle1.png" alt="">
+
+  <div class="col-12 col-sm-6 col-md-3 overview-counter overview-counter-projects">
+    <span style="transform: translate(-50%, -67%);">0</span>
+    <img src="./Images/circle1.png" alt="" style="width: 234px; display: block; margin: 0 auto;">
     <h3>Projects</h3>
   </div>
 </div>
@@ -376,9 +391,6 @@
       <div class="main-heading" >
         <br>
         <h1 style="color:#1bb341">.hack( ); 2022</h1>
-        <br>
-        <br>
-        <br>
       </div>
       </div>
      
