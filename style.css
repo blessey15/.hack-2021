@@ -9,6 +9,9 @@ h3 {
     text-align: center;
 }
 @media only screen and (max-width: 600px) {
+    .img-png{
+        padding-left: 31%;
+    }
     #sponsors2 .img-fluid {
         margin-left: 25%;
     }
@@ -56,6 +59,9 @@ h3 {
     }
 }
 @media only screen and (min-width: 600px) {
+    .img-png{
+        padding-left: 30%;
+    }
     .footer-text {
         width: 160%;
         margin-left: 96.8%;
@@ -124,7 +130,11 @@ h3 {
         margin-top: 4%;
     }
 }
+
 @media only screen and (min-width: 992px) {
+    .img-png{
+        padding-left: 4rem;
+    }
     .footer-text {
         width: 110%;
         margin-left: 96.8%;
@@ -240,6 +250,15 @@ nav {
 #about .container .row .col p {
     color: white;
 }
+.about-card h2{
+    color: #ffffff;
+}
+
+.about-card p{
+    color: #ffffff;
+}
+
+/* themes */
 #themes .container .row0 .col1,
 #themes .container .row1 .col1 {
     margin: 3%;
@@ -505,20 +524,12 @@ hr {
     opacity: 1;
 }
 
-.about-card h2{
-    color: #ffffff;
-}
-
-.about-card p{
-    color: #ffffff;
-}
 
 .img-png{
     height: 10rem;
     width: auto;
     margin-bottom: -1rem;
     margin-right: 1rem;
-    margin-left: auto;
     opacity: .8;
     transition: all .1s;
 }
