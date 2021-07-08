@@ -9,6 +9,9 @@ h3 {
     text-align: center;
 }
 @media only screen and (max-width: 600px) {
+    .slider .slider-track{
+        width: calc(250px * 14);
+    }
     .img-png{
         padding-left: 31%;
     }
@@ -59,6 +62,9 @@ h3 {
     }
 }
 @media only screen and (min-width: 600px) {
+    .slider .slider-track{
+        width: calc(250px * 17);
+    }
     .img-png{
         padding-left: 30%;
     }
@@ -129,9 +135,13 @@ h3 {
         text-align: center;
         margin-top: 4%;
     }
+   
 }
 
 @media only screen and (min-width: 992px) {
+    .slider .slider-track{
+        width: calc(250px * 17);
+    }
     .img-png{
         padding-left: 4rem;
     }
@@ -377,7 +387,6 @@ nav {
 
 .slider .slider-track {
     display: flex;
-    width: calc(250px * 14);
     animation: scroll 40s infinite linear;
 }
 .slider section {
@@ -389,7 +398,7 @@ nav {
         transform: translateX(0%);
     }
     100% {
-        transform: translateX(calc(-250px * 8.2));
+        transform: translateX(calc(-250px * 11));
     }
 }
 /* sponsors 2020 */
